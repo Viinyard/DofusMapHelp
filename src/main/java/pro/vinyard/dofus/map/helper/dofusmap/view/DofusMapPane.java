@@ -30,7 +30,8 @@ public class DofusMapPane extends JPanel {
 		gbc.gridx = gbc.gridy = 1;
 		gbc.gridheight = gbc.gridwidth = 1;
 		gbc.fill = GridBagConstraints.BOTH;
-		gbc.weightx = gbc.weighty = 0;
+		gbc.weightx = 1;
+		gbc.weighty = 0;
 		
 		this.positionPane = new PositionPane();
 		model.addObserver(this.positionPane);
