@@ -32,7 +32,7 @@ public class App extends JFrame {
 		this.setTitle("Dofus Helper");
 		this.setLocationRelativeTo(null);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
+		this.setAlwaysOnTop(true);
 		this.setLayout(new BorderLayout());
 		
 		DofusMapModel model = new DofusMapModel();
