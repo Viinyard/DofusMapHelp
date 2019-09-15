@@ -54,7 +54,7 @@ public class IndicePane extends JPanel implements Observer {
 		
 		this.list.addListSelectionListener(e -> {
 			if(e.getValueIsAdjusting()) {
-				this.notifyHintChanged(e.getLastIndex());
+				this.notifyHintChanged(this.list.getSelectedIndex());
 			}
 		});
 		

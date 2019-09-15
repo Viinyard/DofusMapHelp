@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: pro.vinyard.dofus.map.helper.AppTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in pro.vinyard.dofus.map.helper.AppTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 s - in pro.vinyard.dofus.map.helper.AppTest
